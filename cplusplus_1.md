@@ -42,3 +42,31 @@ b = 2;
 a = a + 1;
 result = a - b;
 ```
+### Fundamental Data Types
+* Character Types (**A**)
+* Numerical Integer Types
+* Floating-point Types (**3.14**)
+* Boolean type
+
+### Declaration of variables
+C++ is a strongly-typed language that requires every varaible to be declared with its type before implementation. (allows the compiler to size the variable in memory)
+```cpp
+int a;
+float mynumber;
+```
+Variables with the same type can be declared on the same line
+```cpp
+int a,b,c;
+// Is the  same as ...
+int a;
+int b;
+int c;
+```
+### Initialization of Variables
+we can declare variables that have a pre-existing determined value this is known as initialiaztion
+* **c-like initialization**, **constructor initialization**, and **uniform initialization
+```cpp
+int x = 0;
+int x (0);
+int x {0};
+
